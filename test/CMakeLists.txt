@@ -34,6 +34,8 @@ add_fcl_test(test_fcl_capsule_box_1 test_fcl_capsule_box_1.cpp)
 add_fcl_test(test_fcl_capsule_box_2 test_fcl_capsule_box_2.cpp)
 #add_fcl_test(test_fcl_global_penetration test_fcl_global_penetration.cpp libsvm/svm.cpp test_fcl_utility.cpp)
 
+add_fcl_test(test_fcl_regression_boxbox regression/test_fcl_regression_boxbox.cpp)
+
 if (FCL_HAVE_OCTOMAP)
   add_fcl_test(test_fcl_octomap test_fcl_octomap.cpp test_fcl_utility.cpp)
 endif()
